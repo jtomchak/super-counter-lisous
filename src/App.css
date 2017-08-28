@@ -1,0 +1,25 @@
+.counter {
+  border: 1px solid #f5ae10;
+  display: inline-block;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.counter__btn-increment,
+.counter__btn-decrement {
+  display: inline-block;
+  border: none;
+  padding: 7px 10px;
+  color: #fff;
+  background-color: #f5ae10;
+  font-weight: bold;
+}
+
+.counter__btn-increment:focus,
+.counter__btn-decrement:focus {
+  outline: 0;
+}
+
+.counter__value {
+  padding: 0 10px;
+}
