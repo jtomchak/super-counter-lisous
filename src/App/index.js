@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CounterContainer from "./CounterContainer";
+import CounterContainer from "../Counter/CounterContainer";
 import "./App.css";
 
 class App extends Component {
